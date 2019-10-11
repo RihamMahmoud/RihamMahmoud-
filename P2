@@ -1,0 +1,11 @@
+# program read N integer  and check if it odd or even and output massage Weird or not wired
+
+N = int(input("input  Number from 1 to 100 :"))
+if N % 2 != 0:
+    print("weird")
+elif N % 2 == 0 and (N > 2 or N < 5):
+    print("Not weird")
+elif N % 2 == 0 and (N > 6 or N < 20):
+    print("weird")
+elif N % 2 == 0 and N > 20:
+    print("Not weird")
